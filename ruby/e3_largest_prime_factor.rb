@@ -13,9 +13,9 @@ def is_prime?(num)
     return true
 end
 
-puts is_prime?(6857)
-puts is_prime?(29)
-puts is_prime?(300)
+#puts is_prime?(6857)
+#puts is_prime?(29)
+#puts is_prime?(300)
 
 def largest_prime(num)
    l = Math.sqrt(num).round+1
@@ -28,4 +28,4 @@ def largest_prime(num)
    return final
 end
 
-puts largest_prime(600851475143)
+#puts largest_prime(600851475143)
